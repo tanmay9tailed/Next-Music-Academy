@@ -50,7 +50,7 @@ const people = [
 
 export function Instructer() {
   return (
-    <div className="relative h-screen w-full">
+    <div className="relative h-screen w-full overflow-hidden">
       <WavyBackground className="max-w-4xl mx-auto pb-40">
         <h1 className="text-2xl md:text-4xl lg:text-7xl mx-auto font-bold text-center mb-8">Meet Our Instructers</h1>
         <p className="text-base md:text-lg text-center mb-4">

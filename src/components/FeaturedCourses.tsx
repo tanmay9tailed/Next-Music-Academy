@@ -27,7 +27,7 @@ const FeaturedCourses = () => {
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">Learn With the Best</p>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredCourses.map((course: Course) => (
             <div key={course.id} className="flex justify-center items-center">

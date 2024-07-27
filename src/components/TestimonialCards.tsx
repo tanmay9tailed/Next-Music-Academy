@@ -37,9 +37,9 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const TestimonialCards = () => {
   return (
-    <div className="text-3xl font-bold text-center z-10 bg-white dark:bg-black dark:bg-dot-white/[0.2] bg-dot-black/[0.2] h-[80vh] flex flex-col justify-center items-center">
+    <div className="text-3xl font-bold text-center z-10 bg-white dark:bg-black dark:bg-dot-white/[0.2] bg-dot-black/[0.2] h-[80vh] flex flex-col justify-center items-center h-screen ">
         <h2 className="sm:text-4xl pt-40">Hear our Harmony: Voices of success</h2>
-      <div className="h-[40rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
+      <div className="h-[40rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden w-full">
         <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
       </div>
     </div>

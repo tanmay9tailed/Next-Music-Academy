@@ -46,7 +46,7 @@ const page = () => {
           </LabelInputContainer>
           <LabelInputContainer className="mb-4">
             <Label htmlFor="message">Message</Label>
-            <Input id="message" placeholder="Your message here..." type="text" as="textarea" />
+            <Input id="message" placeholder="Your message here..." type="text" />
           </LabelInputContainer>
 
           <button
